@@ -1,3 +1,6 @@
+#ifndef MAIN_H
+#define MAIN_h
+
 int _putchar(char);
 
 void print_alphabet(void);
@@ -26,17 +29,5 @@ void print_times_table(int n);
 
 void num(int r, int n);
 
-void print_alphabet(void)
-{
 
-char c;
-
-for (c = 'a'; c <= 'z'; c++)
-
-{
-_putchar(c);
-
-}
-_putchar('\n');
-
-}
+#endif
