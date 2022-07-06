@@ -3,7 +3,7 @@
  *main-print_alphabet-function to print abc
  * Return: Always 0 (success)
  */
-print_alphabet(void)
+void print_alphabet(void)
 {
 char c;
 
@@ -17,7 +17,6 @@ _putchar(c);
 }								        
 _putchar('\n');
 
-return (0);
 }
 
 
